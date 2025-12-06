@@ -65,7 +65,7 @@ URL format: https://USERNAME.github.io/REPOSITORY
 Submit your GitHub Pages URL for peer review:
 
 Code
-https://USERNAME.github.io/portfolio
+https://acsajjad705.github.io/portfolio
 🔧 Customization
 Replace images in assets/img and update alt text.
 
@@ -80,8 +80,6 @@ This project is licensed under the MIT License. Feel free to use and adapt for y
 
 📬 Contact
 Created by Syed Sajjad Raza
-
-Email: your.email@example.com
 
 Location: Jhelum, Punjab, Pakistan
 
