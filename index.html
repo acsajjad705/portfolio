@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio of Syed Sajjad Raza — IT student and aspiring full-stack developer." />
+  <title>Syed Sajjad Raza | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" role="banner" aria-label="Site header">
+    <nav class="nav" role="navigation" aria-label="Primary navigation">
+      <a class="logo" href="#" aria-label="Homepage">
+        <img src="assets/img/logo.png" alt="SSR monogram logo" />
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact" class="btn btn-primary">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" class="main-content" tabindex="-1">
+    <section class="hero" aria-label="Intro section">
+      <div class="hero-content">
+        <img class="avatar" src="assets/img/profile.jpg" alt="Portrait of Syed Sajjad Raza smiling" />
+        <div class="hero-text">
+          <h1>Syed Sajjad Raza</h1>
+          <p>BSIT student (Virtual University of Pakistan, CGPA 3.77) — building secure, optimized full-stack apps with .NET, Blazor, and modern web.</p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View projects</a>
+            <button class="btn btn-outline" id="themeToggle" aria-pressed="false" aria-label="Toggle dark mode">Toggle theme</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section" aria-labelledby="about-title">
+      <h2 id="about-title">About</h2>
+      <p>I’m meticulous and growth-driven, focused on backend and full-stack development. I value clarity, documentation, and efficient workflows. Open to global roles and field assignments.</p>
+      <ul class="about-highlights">
+        <li><strong>Education:</strong> BS Information Technology (in progress), Virtual University of Pakistan</li>
+        <li><strong>Languages:</strong> English, Urdu; German B1 in progress</li>
+        <li><strong>Location:</strong> Jhelum, Punjab, Pakistan (open to international relocation)</li>
+      </ul>
+    </section>
+
+    <section id="skills" class="section" aria-labelledby="skills-title">
+      <h2 id="skills-title">Skills</h2>
+      <div class="skills-grid" role="list">
+        <article class="skill-card" role="listitem">
+          <h3>Frontend</h3>
+          <p>HTML, CSS, JavaScript, accessibility, responsive design</p>
+        </article>
+        <article class="skill-card" role="listitem">
+          <h3>Backend</h3>
+          <p>C#, ASP.NET Core, Blazor, EF Core, REST APIs, SQL/DBMS</p>
+        </article>
+        <article class="skill-card" role="listitem">
+          <h3>Workflow</h3>
+          <p>Requirements analysis, documentation, debugging, testing</p>
+        </article>
+        <article class="skill-card" role="listitem">
+          <h3>Marketing & SEO</h3>
+          <p>Technical SEO, content, platform management</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section" aria-labelledby="projects-title">
+      <h2 id="projects-title">Projects</h2>
+      <div class="projects-grid" role="list">
+        <article class="project-card" role="listitem">
+          <img src="assets/img/project-inventory.jpg" alt="Inventory management dashboard screenshot" />
+          <div class="project-content">
+            <h3>Inventory Management System</h3>
+            <p>Full-stack app with ASP.NET Core + EF Core; secure authentication, CRUD workflows, responsive UI.</p>
+            <a href="#" class="btn btn-outline" aria-label="Open Inventory Management System repository">Repository</a>
+          </div>
+        </article>
+        <article class="project-card" role="listitem">
+          <img src="assets/img/project-grades.jpg" alt="Grades management interface screenshot" />
+          <div class="project-content">
+            <h3>Grades Management</h3>
+            <p>Blazor-based solution with validation, analytics, and export features; accessible and fast.</p>
+            <a href="#" class="btn btn-outline" aria-label="Open Grades Management repository">Repository</a>
+          </div>
+        </article>
+        <article class="project-card" role="listitem">
+          <img src="assets/img/project-portfolio.jpg" alt="Personal portfolio landing page screenshot" />
+          <div class="project-content">
+            <h3>Portfolio Website</h3>
+            <p>Semantic HTML, modular CSS, and JavaScript interactivity; optimized for performance and accessibility.</p>
+            <a href="#" class="btn btn-outline" aria-label="Open Portfolio Website repository">Repository</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section" aria-labelledby="experience-title">
+      <h2 id="experience-title">Experience</h2>
+      <ul class="timeline" aria-label="Experience timeline">
+        <li>
+          <h3>Intern, Bizistech Ltd</h3>
+          <p>Sales, marketing, and digital platforms; workflow optimization and documentation.</p>
+        </li>
+        <li>
+          <h3>Intern, ClickTake Technologies</h3>
+          <p>SEO and content; technical web management and analytics.</p>
+        </li>
+        <li>
+          <h3>Intern, Premier Information Technologies</h3>
+          <p>Platform operations, process improvement, and communication.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact</h2>
+      <form class="contact-form" aria-describedby="contact-help" novalidate>
+        <p id="contact-help">All fields required. No spam; we value your privacy.</p>
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required aria-required="true" />
+          <span class="error" id="error-name" role="alert" aria-live="polite"></span>
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required aria-required="true" />
+          <span class="error" id="error-email" role="alert" aria-live="polite"></span>
+        </div>
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+          <span class="error" id="error-message" role="alert" aria-live="polite"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+        <p class="form-status" id="formStatus" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo" aria-label="Site footer">
+    <p>&copy; <span id="year"></span> Syed Sajjad Raza. All rights reserved.</p>
+    <nav aria-label="Footer navigation">
+      <ul class="footer-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="mailto:your.email@example.com">Email</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
